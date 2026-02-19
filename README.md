@@ -43,8 +43,6 @@ A first intuition is that a simple, easily interpretable model like LR is a good
 
 <img src="images/LR_results.png" width="800">
 
-* __*Refer to the [report](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/Retail-Analytics_report.pdf) for details and conclusions*__
-
 ### 2. Random Forests
 Random forests (RFs) are primarily used for classification, however they can also be used for regression (Breiman, 2001). RFs are ensembles of decision trees (DTs), whose inputs are bootstraps of the training samples. The final RF prediction is the average of all of these DTs’ predictions for a given test sample (bootstrap aggregation). Since each DT has a different bootstrap set, the variance is reduced without affecting the bias. By using this form of aggregation, RFs generally have high accuracy (less overfitting, more robust to noise), but are less interpretable than single DTs (Zhao and Zhang, 2008).
 
@@ -74,3 +72,4 @@ Random Forests| 97.07%| +high prediction accuracy  +embedded feature selection  
 To explore the Bayesian Structure of the dataset, it needs to be categorized in order to reduce the dimensional complexity. [Bayesys](http://bayesian-ai.eecs.qmul.ac.uk/bayesys/) is used for learning the Bayesian structure of the dataset. The input and output files are availible via [Bayesian Learning](https://github.com/Dorsa-Arezooji/Retail-Analytics/tree/master/Bayesian%20Learning).
 
 <img src="images/Bayesys.png" width="800">
+
