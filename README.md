@@ -1,4 +1,4 @@
-# Walmart-Sales-Analytics
+# Walmart-Sales-Prediction-Using-ML
 Walmart sales prediction with Linear Regression and Random Forests + Bayesian Structure Learning
 
 ## Dataset
@@ -54,8 +54,6 @@ RFs are extremely flexible and obtain very high accuracies (Pavlov, 2000) while 
 
 <img src="images/RF_results.png" width="800">
 
-* __*Refer to the [report](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/Retail-Analytics_report.pdf) for details and conclusions*__
-
 ### Backward Feature Elimination
 The feature importances calculated in the previous section (RFs) are used to eliminate features one-by-one using backward feature selection.
 
@@ -76,13 +74,3 @@ Random Forests| 97.07%| +high prediction accuracy  +embedded feature selection  
 To explore the Bayesian Structure of the dataset, it needs to be categorized in order to reduce the dimensional complexity. [Bayesys](http://bayesian-ai.eecs.qmul.ac.uk/bayesys/) is used for learning the Bayesian structure of the dataset. The input and output files are availible via [Bayesian Learning](https://github.com/Dorsa-Arezooji/Retail-Analytics/tree/master/Bayesian%20Learning).
 
 <img src="images/Bayesys.png" width="800">
-
-* __*Refer to the [report](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/Retail-Analytics_report.pdf) for details and conclusions*__
-
-
-## References
-* Breiman, L. (2001) ‘Random forests’, Machine learning, (45), pp. 5–32.
-* Pavlov, Y. L. (2000) ‘Random Forests’. doi: 10.1515/9783110941975.
-* Saeys, Y., Abeel, T. and Van de Peer, Y. (2008) ‘Robust Feature Selection Using Ensemble Feature Selection Techniques’, Machine Learning and Knowledge Discovery in Databases, pp. 313–325. doi: 10.1007/978-3-540-87481-2_21 .
-* Zhao, Y. and Zhang, Y. (2008) ‘Comparison of decision tree methods for finding active objects’, Advances in Space Research, pp. 1955–1959. doi: 10.1016/j.asr.2007.07.020.
-
