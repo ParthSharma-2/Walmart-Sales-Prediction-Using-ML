@@ -69,7 +69,7 @@ Random Forests| 97.07%| +high prediction accuracy  +embedded feature selection  
 
 ## Bayesian Network Structure Learning
 
-To explore the Bayesian Structure of the dataset, it needs to be categorized in order to reduce the dimensional complexity. [Bayesys](http://bayesian-ai.eecs.qmul.ac.uk/bayesys/) is used for learning the Bayesian structure of the dataset. The input and output files are availible via [Bayesian Learning](https://github.com/Dorsa-Arezooji/Retail-Analytics/tree/master/Bayesian%20Learning).
+To explore the Bayesian Structure of the dataset, it needs to be categorized in order to reduce the dimensional complexity. [Bayesys](http://bayesian-ai.eecs.qmul.ac.uk/bayesys/) is used for learning the Bayesian structure of the dataset. The input and output files are availible via [Bayesian Learning](https://github.com/ParthSharma-2/Walmart-Sales-Prediction-Using-ML/tree/master/Bayesian%20Learning).
 
 <img src="images/Bayesys.png" width="800">
 
