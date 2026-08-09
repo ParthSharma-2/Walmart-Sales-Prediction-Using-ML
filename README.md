@@ -190,7 +190,7 @@ To explore probabilistic dependencies between variables, the dataset was discret
 
 | Model | Accuracy | Pros | Cons |
 |---|:---:|---|---|
-| **Linear Regression** | 11.56% | Simple & interpretable · Fast to train | Poor with categorical features · Unreliable extrapolation |
+| **Linear Regression** | Low | Simple & interpretable · Fast to train | Poor with categorical features · Unreliable extrapolation |
 | **Random Forests** ⭐ | **97.07%** | High accuracy · Embedded feature selection · Handles mixed data types | Less interpretable · Longer training time |
 
 </div>
